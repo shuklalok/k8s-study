@@ -68,7 +68,7 @@ CMD ["python", "app.py"]    # Default startup command
 > **Ref:** [Going back in time](http://kubernetes.io/docs/concepts/overview/#going-back-in-time)
 
 **Key differences to highlight:**
-- **Size:** VM are in GBs (full OS). Container images are in MBs.
+- **Size:** VM are in GBs (full OS). Container images are in MBs (just app + deps).
 - **Startup:** VMs take minutes. Containers start in milliseconds.
 - **Isolation:** VMS have stronger isolation (separate kernel). Containers share the host kernel.
 - **Density:** You can run 100s of containers on a single host versus 10s of VMS.
@@ -157,4 +157,4 @@ This is exactly what **Kubernetes** does. It is the **orchestration** that sits 
   
 ---
 
-**HOME** [Session Guide Index](README.md) | **NEXT:** [Topic 1 - Basic Concepts of K8s](01-basic-concepts-of-k8s.md)
+**HOME** [Session Guide Index](README.md) | **NEXT:** [Topic 1 - Basic Concepts of K8s](01-basic-concepts.md)
