@@ -65,7 +65,7 @@ CMD ["python", "app.py"]    # Default startup command
       +-------------------------------------------------------------------+
 ```
 
-> **Ref:** [Going back in time](http://kubernetes.io/docs/concepts/overview/#going-back-in-time)
+> **Ref:** [Going back in time](https://kubernetes.io/docs/concepts/overview/#going-back-in-time)
 
 **Key differences to highlight:**
 - **Size:** VM are in GBs (full OS). Container images are in MBs (just app + deps).

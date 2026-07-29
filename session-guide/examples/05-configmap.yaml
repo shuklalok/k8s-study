@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  APP_ENV: staging
+  LOG_LEVEL: debug
+  DATABASE_URL: postgresql://localhost:5432/mydb
+  app.properties: |
+    server.port=8080
+    spring.profiles.active=staging
+    logging.level.root=DEBUG

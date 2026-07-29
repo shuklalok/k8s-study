@@ -283,5 +283,5 @@ manager that makes deploying complex applications much easier."
 
 ---
 
-**PREV:** [Topic 0 - Docker, Images & Containers]
-**NEXT:** [Topic 2 - Helm Charts & Values]
+**PREV:** [Topic 0 - Docker, Images & Containers](00-docker-images-containers.md)
+**NEXT:** [Topic 2 - Helm Charts & Deployment](02-helm-charts.md)
