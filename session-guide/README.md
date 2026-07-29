@@ -70,7 +70,7 @@ session-guide/              # Presenter guide (split by topic)
 
 ### For Presenters
 
-- Keep [SESSION-DELIVERY-GUIDE.md](SESSION-DELIVERY-GUIDE.md) open on your private screen
+- Keep [SESSION-DELIVERY-GUIDE.md](../README.md) open on your private screen
 - Use the shared screen for terminal commands and YAML file walkthroughs
 - Follow the suggested timing in the delivery guide
 - Encourage questions during Q&A sections
